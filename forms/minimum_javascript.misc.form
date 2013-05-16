@@ -50,4 +50,24 @@
 		});
 	}
 </script>
-<script src="https://apis.google.com/js/plusone.js">
+
+<!-- Scripts you only want to run if section name is "articles". -->
+<txp:if_section name="articles">
+
+	<!-- Scripts for showing comment count 3rd party site Disqus. Besure to in global_variables form state whether or not you want to use Discus, and if you do, it is required that you fill in your disqus shortname in the global_variables form as well-->
+	<txp:if_variable name="disqus_y_n" value="Y">  
+	    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = '<txp:variable name="disqus_shortname" />'; // required: make sure you have filled out your shortname in form "global_variables"
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    </txp:if_variable>
+
+</txp:if_section>
