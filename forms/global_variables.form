@@ -1,0 +1,6 @@
+<!-- Global form allows easy cloning of templates for multiples clients and only having to change items on one form, leaving all other parts of template the same 
+(eventual goal, will keep adding variable names). -->
+
+	<txp:variable name="disqus_username" value="insert_here" />
+	<txp:variable name="twitterbutton_y_n" value="N" />
+	<txp:variable name="twitter_username" value="insert_here" />
