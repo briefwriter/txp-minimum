@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="<txp:lang />">
 
+    <txp:output_form form="global_variables" />
     <txp:output_form form="minimum_htmlhead" />
 
     <body>
