@@ -2,6 +2,6 @@
 (eventual goal, will keep adding variable names). -->
 
 	<txp:variable name="disqus_y_n" value="N" />
-	<txp:variable name="disqus_username" value="insert_here" />
+	<txp:variable name="disqus_shortname" value="insert_here" />
 	<txp:variable name="twitterbutton_y_n" value="N" />
 	<txp:variable name="twitter_username" value="insert_here" />
