@@ -1,5 +1,3 @@
-***Please note that this is a development branch that most likely WILL HAVE MAJOR errors, as forms and pages will NOT work as they might not be properly linked, etc.  Use master or testing branch if you need something more likely to work properly. Once files are properly linked, etc, will upgrade to master branch.
-
 h1. txp-minimum
 
 Minimum theme for "Textpattern CMS":http://textpattern.com. See a "working demo here":http://minimum.yauh.de.
@@ -8,11 +6,11 @@ A huge *thank you* goes to "Amit Varia":http://amitvaria.com/, who inspired this
 
 Minimum enables you to publish your writings, but it does not allow you to:
 
-* use comments
+* use comments (this branch enables Disqus)
 * use categories, sections, or even tags
 * use article images (technically you can use images inside articles, just no article image)
 * include a contact form
-* hook up to social networks or have sharing buttons
+* hook up to social networks
 * show off a massive link collection
 
 Minimum is a theme that lets you write. It embraces "the golden ratio":http://alistapart.com/article/more-meaningful-typography. What else would you need?
@@ -20,6 +18,8 @@ Minimum is a theme that lets you write. It embraces "the golden ratio":http://al
 h2. Installation
 
 Getting up and running is a breeze. Minimum is guaranteed to work on Textpattern 4.5.4. All you need is grab a copy of "cxc_templates":https://github.com/perlmonkey/txp-cxc-templates, install it and copy the minimum theme folder content to your @tpl@ directory.
+
+For form "global_variables", open and enter any information, for y/n questions, enter an uppercase Y or N. 
 
 It would also be a advisable to set the advanced preference 'Prevent widowed words in article titles?' to 'No', otherwise long title wording could potentially spill out of your responsive page on narrow screen widths.
 
