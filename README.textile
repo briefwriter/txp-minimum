@@ -1,4 +1,4 @@
-***Please note that this is a testing branch that most likely WILL HAVE MAJOR errors, as forms and pages will NOT work as they will not be properly linked.  Use master branch if you need something more likely to work properly. Once files are properly linked, etc, will upgrade to master branch.
+***Please note that this is a development branch that most likely WILL HAVE MAJOR errors, as forms and pages will NOT work as they might not be properly linked, etc.  Use master or testing branch if you need something more likely to work properly. Once files are properly linked, etc, will upgrade to master branch.
 
 h1. txp-minimum
 
