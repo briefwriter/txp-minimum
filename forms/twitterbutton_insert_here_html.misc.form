@@ -1,2 +1,2 @@
-<!-- this needs to go where you want your button to show up in the article -->
+<txp:hide><!-- this needs to go where you want your button to show up in the article --></txp:hide>
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="<txp:variable name="twitter_username" />">Tweet</a>
