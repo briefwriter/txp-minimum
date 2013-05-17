@@ -8,7 +8,7 @@
                 <txp:body />
                 <txp:if_section name="articles">
                 	<txp:if_variable name="twitterbutton_y_n" value="Y">
-                		<txp:output_form form="twitterbutton_insert_here_html.misc.form" />
+                		<txp:output_form form="twitterbutton_insert_here_html" />
                 	</txp:if_variable>
                 	<txp:if_variable name="disqus_y_n" value="Y">
                 		<txp:output_form form="disqus_insert_here_html" />
