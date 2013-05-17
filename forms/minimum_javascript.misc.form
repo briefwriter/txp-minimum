@@ -51,11 +51,11 @@
 	}
 </script>
 
-<!-- Scripts you only want to run if section name is "articles". -->
 <txp:if_section name="articles">
+<txp:hide><!-- Scripts you only want to run if section name is "articles". --></txp:hide>
 
-	<!-- Scripts for showing comment count 3rd party site Disqus. Besure to in global_variables form state whether or not you want to use Discus, and if you do, it is required that you fill in your disqus shortname in the global_variables form as well-->
-	<txp:if_variable name="disqus_y_n" value="Y">  
+	<txp:if_variable name="disqus_y_n" value="Y">
+	<txp:hide><!-- Scripts for showing comment count 3rd party site Disqus. Besure to in global_variables form state whether or not you want to use Discus, and if you do, it is required that you fill in your disqus shortname in the global_variables form as well--></txp:hide>
 	    <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = '<txp:variable name="disqus_shortname" />'; // required: make sure you have filled out your shortname in form "global_variables"
@@ -70,8 +70,8 @@
     </script>
     </txp:if_variable>
     
-    <!-- For Twitter Button script, to tweet individual articles-->
-    <txp:if_variable name="twitterbutton_y_n" value="Y"> 
+    <txp:if_variable name="twitterbutton_y_n" value="Y">
+    <txp:hide><!-- For Twitter Button script, to tweet individual articles--></txp:hide>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </txp:if_variable>
 </txp:if_section>
