@@ -1,4 +1,4 @@
-<!-- code for disqus that needs to be placed into the HTML of page where you want it to appear -->
+<txp:hide><!-- code for disqus that needs to be placed into the HTML of page where you want it to appear --></txp:hide>
 
 <div id="disqus_thread"></div>
     <script type="text/javascript">
