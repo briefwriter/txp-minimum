@@ -1,5 +1,5 @@
-***Please note that this is a testing branch that most likely WILL HAVE MAJOR errors, as forms and pages will NOT work as they will not be properly linked.  Use master branch if you need something more likely to work properly. Once files are properly linked, etc, will upgrade to master branch.
-
+***Please note that this is a "testing branch" that most likely have some errors, but seems to work at first glance, and after giving it a quick once through online.
+**Form "global_variables" must be filled out before once loaded onto your site before template will work with all its features that were added.
 h1. txp-minimum
 
 Minimum theme for "Textpattern CMS":http://textpattern.com. See a "working demo here":http://minimum.yauh.de.
