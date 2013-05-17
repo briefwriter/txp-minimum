@@ -1,13 +1,26 @@
 <article role="article" itemscope itemtype="http://schema.org/Article">
 	<txp:if_individual_article>
 		<h1 itemprop="name"><txp:title /></h1>
-	<txp:else />
+		<txp:if_section name="articles">
+                	<h4><time datetime="<txp:posted format='iso8601' />" itemprop="datePublished"><txp:posted /></time></h4>
+	        </txp:if_section>
+	        <div class="body" itemprop="articleBody">
+                <txp:body />
+                <txp:if_section name="articles">
+                	<txp:if_variable name="disqus_y_n" value="Y">
+                	<txp:output_form form="disqus_insert_here_html" />
+                	</txp:if_variable>
+                </txp:if_section>
+		</div>
+	
+		
+		<txp:else />
+		
 		<h1 itemprop="name"><txp:permlink><txp:title /></txp:permlink></h1>
+		<h4><time datetime="<txp:posted format='iso8601' />" itemprop="datePublished"><txp:posted /></time></h4>
+		<div class="body" itemprop="articleBody">
+		<txp:excerpt />
+		<a href="<txp:permlink />#body" title="<txp:title />">&#187; Read entire post...</a>
+		</div>
 	</txp:if_individual_article>
-	<h4><time datetime="<txp:posted format='iso8601' />" itemprop="datePublished"><txp:posted /></time></h4>
-	<div class="body" itemprop="articleBody">
-		<txp:body />
-	</div>
 </article>
-
-</div>
